@@ -1,5 +1,5 @@
 # RealDic 리얼딕 : 한국어 예문 검색 서비스
-
+<img src="./realdic_project/WEBContent/images/sc-main.png" width="300px">
 
 ### 개요
 
