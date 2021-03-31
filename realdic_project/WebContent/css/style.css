@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap');
+/* 폰트 사용 시 -> font-family: 'Noto Sans JP', sans-serif; */
+html{
+    /* background-color: #EEEEEE; */
+}
+body{
+    font-family: 'Noto Sans JP', sans-serif;
+    text-align: center;
+    border: 1px solid #EEEEEE; 
+    width: 414px;
+    margin: 0 auto;
+    background-color: white;
+    padding : 0 20px 20px 20px;
+}
+
+/* header */
+#title-sub{
+    font-family: Noto Sans JP;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: 70px;
+}
+#titleDiv{
+    position : relative;
+    width : 209px;
+    color: #00BFA6;
+    text-align: right;
+    margin: 0 auto;
+}
+#titleDiv>a>h1{
+    margin: 0;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    height: 55px;
+    line-height: 70px;
+}
+#titleDiv>a{
+    text-decoration: none;
+}
+#titleDiv>a:link{
+    color: #00BFA6;
+}
+#titleDiv>a:visited{
+    color: #00BFA6;
+}
+#titleDiv>a:active{
+    color: #00BFA6;
+}
+#titleDiv>p{
+    margin : 0;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: right;
+}
+header>p{
+    font-family: Noto Sans JP;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+}
+header>p>span{
+    color: #FD6786;
+}
+#search{
+    padding:0;
+    margin: 0 auto;
+    height: 20px;
+}
+input[type="search"]{
+    padding: 10px;
+    border: 0;
+    background-color: #EEEEEE;
+    width: 226px;
+    height: 40px;
+    font-size: 14px;
+}
+input[type="search"]::-webkit-input-placeholder{
+    color: #ACACAC;
+}
+#search>#btn{
+    background: #00BFA6;
+    border: 0;
+    width: 60px;
+    height: 40px;
+    color: #fff;
+    outline: none;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+}
+#search>input[type="button"]:active{
+    background: #189885;
+}
+
+/* section - 메인화면 */
+#main-img{
+    width: 314px;
+    height: 224px;
+}
+
+/********* sesction - 검색결과 ******/
+#top{
+    position : -webkit-sticky;
+    position : sticky;
+    top : 700px;
+    left : 600px;
+    width: 47px;
+    height: 47px;
+}
+
+section>h3{
+    text-align : left;
+    padding-left : 30px;
+}
+.container{
+    padding: 0 20px;
+    /* border: #FD6786 1px solid; */
+    height: 124px;
+    white-space : nowrap; /* 줄바꿈 X */
+    /* 가로 스크롤 */
+    overflow:auto;
+    overflow-y : hidden;
+    overflow-x : scroll;
+}
+.container>img{
+    width: 211px;
+    height: 124px;
+    object-fit : cover;
+    margin-right: 15px;
+}
+
+/* 이미지 클릭 시 효과 -> 보류 */
+/* #gray{
+    background: black;
+    position : fixed;
+    top : 0;
+    left : 0;
+    width : 100%;
+    height : 100%;
+    opacity : 30%;
+    z-index : 1;
+}
+#big-img{
+    position: fixed;
+    top : 0;
+    left : 0;
+    z-index : 3;
+}
+#big-img>img{
+    width : 350px;
+} */
+
+/* tweet-box */
+#tweet-box{
+    width : 400px;
+    text-align: center;
+    /* border: #FD6786 solid 1px; */
+    margin : 0 auto;
+}
+#tweet-box>.tweets{
+    /* width : 345px; */
+    border : 0px;
+    padding: 10px;
+    margin : 0;
+    background-color: #EEEEEE;
+    font-family: Noto Sans JP;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    /* line-height: 17px; */
+    text-align : left;
+}
+
+#more{
+    color: #ACACAC;
+}
+/* 검색결과가 더이상 없을 경우 안보이게 */
+.more-off{
+    display : none;
+}
+
+/* footer */
+#copyright{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 9px;
+    line-height: 13px;
+    text-align: center;
+    color: #ACACAC;
+    margin: 10px 0;
+}
