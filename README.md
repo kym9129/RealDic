@@ -1,6 +1,6 @@
 # RealDic 리얼딕 : 한국어 예문 검색 서비스
-<img src="https://github.com/kym9129/RealDic/blob/master/realdic_project/WebContent/images/sc-main.png?raw=true" width="250px" style="display:inline-block">
-<img src="https://github.com/kym9129/RealDic/blob/master/realdic_project/WebContent/images/sc-searchView.png?raw=true" width="250px" style="display:inline-block">
+<img src="https://github.com/kym9129/RealDic/blob/master/realdic_project/WebContent/images/sc-main.png?raw=true" width="250px" style="float:left">
+<img src="https://github.com/kym9129/RealDic/blob/master/realdic_project/WebContent/images/sc-searchView.png?raw=true" width="250px" style="float:left">
 
 ### 개요
 
