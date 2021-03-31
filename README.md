@@ -1,6 +1,5 @@
 # RealDic 리얼딕 : 한국어 예문 검색 서비스
 
-![mainPage](/sc-main.png){:width="30%", height=30%"}
 
 ### 개요
 
